@@ -1,0 +1,22 @@
+name: PylonPal
+options:
+  bundleIdPrefix: com.celinemang
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  PylonPal:
+    type: application
+    platform: iOS
+    sources: [PylonPal]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.celinemang.PylonPal
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: Pylon Pal connects to its LED strip over Bluetooth.
+        INFOPLIST_KEY_NSMotionUsageDescription: Pylon Pal detects train deceleration with motion sensors.
+        INFOPLIST_KEY_UIBackgroundModes: audio bluetooth-central
+        TARGETED_DEVICE_FAMILY: "2"

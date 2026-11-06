@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		296256342AB89479F45FD564 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F549CFA664EE1A16CF8E53 /* SettingsView.swift */; };
+		31918E69E4047C29E1EDFF11 /* PylonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9777B7C54814FF204CABD0 /* PylonState.swift */; };
+		49CD20046B6DF2090F56AFD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DF06CF91DD60906B194CE /* ContentView.swift */; };
+		71E4D33D898C6BE1730EF78F /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9472DED41044EEA0EEF3FA6 /* BLEManager.swift */; };
+		7FFE137776D37BB635AF66D3 /* PylonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E69E6D738AC55552B0CED3 /* PylonController.swift */; };
+		84E91BA22C8E43951874E830 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D8105C7DD1367C89D76209 /* AudioManager.swift */; };
+		BF411F6A18A93C1A94CBAAA6 /* PylonPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26970C88C8A2A55C56C3737 /* PylonPalApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AFBEA938F78C743C38D4551 /* PylonPal.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PylonPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D8105C7DD1367C89D76209 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		9A9777B7C54814FF204CABD0 /* PylonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PylonState.swift; sourceTree = "<group>"; };
+		B4F549CFA664EE1A16CF8E53 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C26970C88C8A2A55C56C3737 /* PylonPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PylonPalApp.swift; sourceTree = "<group>"; };
+		E58DF06CF91DD60906B194CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9472DED41044EEA0EEF3FA6 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		F8E69E6D738AC55552B0CED3 /* PylonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PylonController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EA793F8FC4EB7F1B408F324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AFBEA938F78C743C38D4551 /* PylonPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E6187F3D37475BA3121BBF /* PylonPal */ = {
+			isa = PBXGroup;
+			children = (
+				A1584B2C760BF4B42989455A /* Sources */,
+			);
+			path = PylonPal;
+			sourceTree = "<group>";
+		};
+		A1584B2C760BF4B42989455A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				69D8105C7DD1367C89D76209 /* AudioManager.swift */,
+				E9472DED41044EEA0EEF3FA6 /* BLEManager.swift */,
+				E58DF06CF91DD60906B194CE /* ContentView.swift */,
+				F8E69E6D738AC55552B0CED3 /* PylonController.swift */,
+				C26970C88C8A2A55C56C3737 /* PylonPalApp.swift */,
+				9A9777B7C54814FF204CABD0 /* PylonState.swift */,
+				B4F549CFA664EE1A16CF8E53 /* SettingsView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A187CD7F07DDF1E1C3F83DBA = {
+			isa = PBXGroup;
+			children = (
+				14E6187F3D37475BA3121BBF /* PylonPal */,
+				0EA793F8FC4EB7F1B408F324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"TEMP_3C586AF6-0390-4CB7-8E83-A5A85F4D373C" /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F528FB3493F6764689057F47 /* PylonPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A420DA2E4335995D38564B96 /* Build configuration list for PBXNativeTarget "PylonPal" */;
+			buildPhases = (
+				7DEA68654AE1010F33CBB039 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PylonPal;
+			packageProductDependencies = (
+			);
+			productName = PylonPal;
+			productReference = 0AFBEA938F78C743C38D4551 /* PylonPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B073B168E4C92DC87F018965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 0B1345ACA1F4B7CD9D0B74DD /* Build configuration list for PBXProject "PylonPal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A187CD7F07DDF1E1C3F83DBA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0EA793F8FC4EB7F1B408F324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F528FB3493F6764689057F47 /* PylonPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DEA68654AE1010F33CBB039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E91BA22C8E43951874E830 /* AudioManager.swift in Sources */,
+				71E4D33D898C6BE1730EF78F /* BLEManager.swift in Sources */,
+				49CD20046B6DF2090F56AFD3 /* ContentView.swift in Sources */,
+				7FFE137776D37BB635AF66D3 /* PylonController.swift in Sources */,
+				BF411F6A18A93C1A94CBAAA6 /* PylonPalApp.swift in Sources */,
+				31918E69E4047C29E1EDFF11 /* PylonState.swift in Sources */,
+				296256342AB89479F45FD564 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F6AE602CF7074A14C21F5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5955868CE025B8EB860A6A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Pylon Pal connects to its LED strip over Bluetooth.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Pylon Pal detects train deceleration with motion sensors.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "audio bluetooth-central";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.celinemang.PylonPal;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		97F2988B058363F3AA95181A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Pylon Pal connects to its LED strip over Bluetooth.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Pylon Pal detects train deceleration with motion sensors.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "audio bluetooth-central";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.celinemang.PylonPal;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AA01C176072C40320F9C65A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B1345ACA1F4B7CD9D0B74DD /* Build configuration list for PBXProject "PylonPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA01C176072C40320F9C65A0 /* Debug */,
+				2F6AE602CF7074A14C21F5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A420DA2E4335995D38564B96 /* Build configuration list for PBXNativeTarget "PylonPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F2988B058363F3AA95181A /* Debug */,
+				5955868CE025B8EB860A6A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B073B168E4C92DC87F018965 /* Project object */;
+}
